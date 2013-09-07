@@ -21,6 +21,11 @@
 		E26E516717DAD50E00C0DE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26E514917DAD50E00C0DE59 /* UIKit.framework */; };
 		E26E516F17DAD50E00C0DE59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E26E516D17DAD50E00C0DE59 /* InfoPlist.strings */; };
 		E26E517117DAD50E00C0DE59 /* TranslucentBackgroundViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E517017DAD50E00C0DE59 /* TranslucentBackgroundViewTests.m */; };
+		E26E517E17DADC2900C0DE59 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E517D17DADC2900C0DE59 /* ModalViewController.m */; };
+		E26E518217DADD3400C0DE59 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E518117DADD3400C0DE59 /* UIImage+ImageEffects.m */; };
+		E26E518517DADFCF00C0DE59 /* cheetah.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E518317DADFCF00C0DE59 /* cheetah.png */; };
+		E26E518617DADFCF00C0DE59 /* cheetah@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E518417DADFCF00C0DE59 /* cheetah@2x.png */; };
+		E26E518817DAE02700C0DE59 /* cheetah1136h.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E518717DAE02700C0DE59 /* cheetah1136h.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,13 @@
 		E26E516C17DAD50E00C0DE59 /* TranslucentBackgroundViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TranslucentBackgroundViewTests-Info.plist"; sourceTree = "<group>"; };
 		E26E516E17DAD50E00C0DE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E26E517017DAD50E00C0DE59 /* TranslucentBackgroundViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslucentBackgroundViewTests.m; sourceTree = "<group>"; };
+		E26E517C17DADC2900C0DE59 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		E26E517D17DADC2900C0DE59 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		E26E518017DADD3400C0DE59 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E26E518117DADD3400C0DE59 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		E26E518317DADFCF00C0DE59 /* cheetah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheetah.png; path = Images.xcassets/Image.imageset/cheetah.png; sourceTree = "<group>"; };
+		E26E518417DADFCF00C0DE59 /* cheetah@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cheetah@2x.png"; path = "Images.xcassets/Image.imageset/cheetah@2x.png"; sourceTree = "<group>"; };
+		E26E518717DAE02700C0DE59 /* cheetah1136h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheetah1136h.png; path = Images.xcassets/Image.imageset/cheetah1136h.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +124,9 @@
 		E26E514B17DAD50E00C0DE59 /* TranslucentBackgroundView */ = {
 			isa = PBXGroup;
 			children = (
-				E26E515417DAD50E00C0DE59 /* AppDelegate.h */,
-				E26E515517DAD50E00C0DE59 /* AppDelegate.m */,
-				E26E515717DAD50E00C0DE59 /* Main.storyboard */,
-				E26E515A17DAD50E00C0DE59 /* ViewController.h */,
-				E26E515B17DAD50E00C0DE59 /* ViewController.m */,
+				E26E517F17DADCFF00C0DE59 /* Categories */,
+				E26E517B17DADC0900C0DE59 /* UI */,
+				E26E517A17DADBFB00C0DE59 /* ViewControllers */,
 				E26E515D17DAD50E00C0DE59 /* Images.xcassets */,
 				E26E514C17DAD50E00C0DE59 /* Supporting Files */,
 			);
@@ -126,6 +136,11 @@
 		E26E514C17DAD50E00C0DE59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E26E518317DADFCF00C0DE59 /* cheetah.png */,
+				E26E518417DADFCF00C0DE59 /* cheetah@2x.png */,
+				E26E518717DAE02700C0DE59 /* cheetah1136h.png */,
+				E26E515417DAD50E00C0DE59 /* AppDelegate.h */,
+				E26E515517DAD50E00C0DE59 /* AppDelegate.m */,
 				E26E514D17DAD50E00C0DE59 /* TranslucentBackgroundView-Info.plist */,
 				E26E514E17DAD50E00C0DE59 /* InfoPlist.strings */,
 				E26E515117DAD50E00C0DE59 /* main.m */,
@@ -150,6 +165,34 @@
 				E26E516D17DAD50E00C0DE59 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E26E517A17DADBFB00C0DE59 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E26E515A17DAD50E00C0DE59 /* ViewController.h */,
+				E26E515B17DAD50E00C0DE59 /* ViewController.m */,
+				E26E517C17DADC2900C0DE59 /* ModalViewController.h */,
+				E26E517D17DADC2900C0DE59 /* ModalViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E26E517B17DADC0900C0DE59 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E26E515717DAD50E00C0DE59 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		E26E517F17DADCFF00C0DE59 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E26E518017DADD3400C0DE59 /* UIImage+ImageEffects.h */,
+				E26E518117DADD3400C0DE59 /* UIImage+ImageEffects.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26E518517DADFCF00C0DE59 /* cheetah.png in Resources */,
 				E26E515E17DAD50E00C0DE59 /* Images.xcassets in Resources */,
+				E26E518817DAE02700C0DE59 /* cheetah1136h.png in Resources */,
+				E26E518617DADFCF00C0DE59 /* cheetah@2x.png in Resources */,
 				E26E515017DAD50E00C0DE59 /* InfoPlist.strings in Resources */,
 				E26E515917DAD50E00C0DE59 /* Main.storyboard in Resources */,
 			);
@@ -249,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26E517E17DADC2900C0DE59 /* ModalViewController.m in Sources */,
+				E26E518217DADD3400C0DE59 /* UIImage+ImageEffects.m in Sources */,
 				E26E515C17DAD50E00C0DE59 /* ViewController.m in Sources */,
 				E26E515617DAD50E00C0DE59 /* AppDelegate.m in Sources */,
 				E26E515217DAD50E00C0DE59 /* main.m in Sources */,

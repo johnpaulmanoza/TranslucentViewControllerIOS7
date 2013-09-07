@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ModalViewController.h
 //  TranslucentBackgroundView
 //
 //  Created by Team OPS Inc on 9/7/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-// This could be the background
-@property (weak, nonatomic) IBOutlet UIImageView *backgroundView;
+@interface ModalViewController : UIViewController
+@property (strong, nonatomic) UIImage *translucentBackgroundImage;
 @end
