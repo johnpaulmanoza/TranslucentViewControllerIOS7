@@ -2,7 +2,7 @@
 //  ViewController.m
 //  TranslucentBackgroundView
 //
-//  Created by Team OPS Inc on 9/7/13.
+//  Created by John Paul Manoza on 9/7/13.
 //  Copyright (c) 2013 John Paul Manoza. All rights reserved.
 //
 
